@@ -1,0 +1,30 @@
+body {
+    background-color: rgb(68, 129, 150);
+    margin: 5em;
+}
+
+h1 {
+    color: #ee2222;
+    font-family: 'Brush Script MT', cursive;
+    background-color: rgb(68, 129, 150);
+    padding: 10px;
+    border-bottom: 5px solid black;
+    
+}
+
+h2 {
+   color: #ee2222;
+    font-family: 'Brush Script MT', cursive;
+    background-color: rgb(68, 129, 150);
+    padding: 10px; 
+}
+
+
+p{
+    font-family: 'Brush Script MT', cursive;
+    background-color: whitesmoke;
+}
+
+li a {
+    color: green;
+}

@@ -1,0 +1,25 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang-en>
+<head>
+	<link rel="stylesheet" href="{% static 'personal/style.css' %}">
+	
+	
+
+	<title>This is the title</title>
+	<h1>This is the Header</h1>
+</head>
+
+<body>
+	{% block content %}
+
+	{% endblock content %}
+
+	{% include 'personal/snippets/body_snippet.html' %}
+</body>
+
+<footer>
+	<h3>This is the footer</h3>
+</footer>
+</html>
